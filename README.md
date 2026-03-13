@@ -1,4 +1,4 @@
-# Arquitetura de Computadores: Assembly MIPS 🖥️
+# Arquitetura de Computadores: Assembly MIPS
 
 ![Assembly](https://img.shields.io/badge/Assembly-MIPS-blue?style=for-the-badge)
 ![Instituição](https://img.shields.io/badge/INSTITUIÇÃO-IFRN-green?style=for-the-badge)
