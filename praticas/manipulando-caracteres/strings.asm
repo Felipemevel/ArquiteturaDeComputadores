@@ -7,70 +7,70 @@
 
 .text
 main:	#<----- Carregando a primeira String ----->
-	li $2, 4
+	addi $2, $0, 4
 	la $4, linha
 	syscall
 	
-	li $2, 11
-	li $4, '\n'
+	addi $2, $0, 11
+	addi $4, $0, '\n'
 	syscall
 	
 	#<----- Iniciando a interação ----->
-	li $2, 4
+	addi $2, $0, 4
 	la $4, frase1
 	syscall
 	
-	li $2, 11
-	li $4, '\n'
+	addi $2, $0, 11
+	addi $4, $0, '\n'
 	syscall
 	
-	li $2, 4
+	addi $2, $0, 4
 	la $4, frase2
 	syscall
 	
-	li $2, 5
+	addi $2, $0, 5
 	syscall
 	add $8, $0, $2
 	
-	li $2, 11
-	li $4, '\n'
+	addi $2, $0, 11
+	addi $4, $0, '\n'
 	syscall
 	
-	li $2, 4
+	addi $2, $0, 4
 	la $4, frase3
 	syscall
 	
-	li $2, 5
+	addi $2, $0, 5
 	syscall
 	add $9, $0, $2
 	
-	li $2, 11
-	li $4, '\n'
+	addi $2, $0, 11
+	addi $4, $0, '\n'
 	syscall
 	
 	#<----- Multiplicação ----->
 	mul $10, $8, $9
 	
-	li $2, 4
+	addi $2, $0, 4
 	la $4, frase4
 	syscall
 	
-	li $2, 1
+	addi $2, $0, 1
 	add $4, $10, $0
 	syscall
 	
-	li $2, 11
-	li $4, '\n'
+	addi $2, $0, 11
+	addi $4, $0, '\n'
 	syscall
 	
 	#<----- Encerramento do programa ----->
-	li $2, 4
+	addi $2, $0, 4
 	la $4, linha
 	syscall
 	
-	li $2, 11
-	li $4, '\n'
+	addi $2, $0, 11
+	addi $4, $0, '\n'
 	syscall
 	
-	li $2, 10
+	addi $2, $0, 11
     	syscall
