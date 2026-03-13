@@ -28,4 +28,8 @@ main:	#<----- Input inicial ----->
 	syscall
 	
 	
-# EXPLICAÇÃO: Basicamente o que a questão quer que façamos são divisões sucessivas. Como o valor máximo foi estipulado em 999, precisamos apenas de duas divisões sucessivas para conseguir extrair os 3 algarismos de um numero. Pegamos o número inteiro, fazemos a divisão por 10, guardamos o resto, fazemos a divisão do quociente e assim temos os 3 números necessários. Daí é só pegar o resultado da soma dos 3 restos e printar.
+# EXPLICAÇÃO: Basicamente o que a questão quer que façamos são divisões sucessivas. 
+# Como o valor máximo foi estipulado em 999, precisamos apenas de duas divisões sucessivas 
+# para conseguir extrair os 3 algarismos de um numero. Pegamos o número inteiro, fazemos a
+# divisão por 10, guardamos o resto, fazemos a divisão do quociente e assim temos os 3 números necessários. 
+# Daí é só pegar o resultado da soma dos 3 restos e printar.
