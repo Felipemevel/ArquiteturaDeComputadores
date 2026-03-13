@@ -1,5 +1,6 @@
 .text
-main:	addi $2, $0, 5
+main:	
+	addi $2, $0, 5
 	syscall
 	add $8, $0, $2
 	
