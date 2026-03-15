@@ -24,11 +24,11 @@ main:
 	addi $2, $0, 1
 	syscall		# Caso o valor do resultado for 0, então printará 0
 	
-	add $4, $0, $12	# Somamos o resultado do resto da segunda divisão com 0
+	add $4, $0, $12	# Somamos o resto do resto da segunda divisão com 0
 	addi $2, $0, 1
 	syscall
 	
-	add $4, $0, $11	# Somamos o resto da primeira divisão com 8
+	add $4, $0, $11	# Somamos o resto da primeira divisão com 0
 	addi $2, $0, 1
 	syscall
 	
@@ -36,5 +36,9 @@ main:
 	addi $2, $0, 10
 	syscall
 
-	
+# EXPLICAÇÃO: Como na questão anterior, precisamos apenas fazer duas divisões sucetivas para obter
+# o valor de cada algorismo separado. A partir daí, nós vamos somar esses resultados com o 
+# registrador $0. Então se o valor que resultou da divisão for 0, faremos 0+0 e printar o resultado
+# que obviamente é 0. Caso não seja, o programa printa o valor X e mantém na mesma linha 
+# para printar o resultado seguinte, até finalizar o programa.
 	
