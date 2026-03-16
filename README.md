@@ -1,4 +1,4 @@
-# Arquitetura de Computadores: Assembly MIPS
+# Arquitetura de Computadores: Assembly MIPS 🖥️
 
 ![Assembly](https://img.shields.io/badge/Assembly-MIPS-blue?style=for-the-badge)
 ![Instituição](https://img.shields.io/badge/INSTITUIÇÃO-IFRN-green?style=for-the-badge)
@@ -12,10 +12,16 @@ Este repositório documenta meu aprendizado em **Arquitetura de Sistemas** utili
 
 ## Evolução do Aprendizado (Roadmap)
 
+Abaixo, o mapeamento das competências desenvolvidas conforme as listas de exercícios da disciplina:
+
 | Diretório | Foco do Aprendizado | Conceitos Chave Aplicados |
 | :--- | :--- | :--- |
-| 📂 `revisao-introdutoria` | Fundamentos | Lógica digital e organização básica do computador. |
-| 📂 `manipulando-caracteres` | I/O e Strings | Uso de `syscall` para leitura/escrita e manipulação de buffers. |
+| 📂 `Listas de Exercício/Lista 1` | Operadores, Entrada e Saída | Syscalls de I/O, operadores aritméticos e manipulação de registradores. |
+| 📂 `Listas de Exercício/Lista 2` | Estrutura de Decisão | Desvios condicionais (`beq`, `bne`) e lógica booleana. |
+| 📂 `Listas de Exercício/Lista 3` | Estrutura de Repetição | Implementação de loops (`j`, `jal`) e contadores. |
+| 📂 `Listas de Exercício/Lista 4` | Modularização | Uso de funções, pilha (`stack`) e preservação de registradores. |
+| 📂 `Listas de Exercício/Lista 5` | Arrays (Vetores e Matrizes) | Manipulação de ponteiros, endereçamento de memória e offsets. |
+| 📂 `Prática Livre` | Projetos e Testes | Scripts diversos para fixação de conteúdo e experimentação. |
 
 ## Tecnologias & Ferramentas
 
